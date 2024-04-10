@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleTravel - Explore Destinations</title>
+    <style>
+        /* set background-image */
+        body {
+            background-image: url("https://img0.baidu.com/it/u=2292414552,1461224411&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800");
+            background-size: cover; 
+            
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff; /* 设置导航栏背景颜色 */
+            padding: 10px 20px; /* 设置导航栏内边距 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+        }
+
+        .nav-item {
+            margin-right: 20px; /* 设置导航项之间的间距 */
+            text-decoration: none; /* 去除链接下划线 */
+            color: #333; /* 设置导航项文字颜色 */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #searchInput {
+            padding: 5px; /* 设置输入框内边距 */
+            margin-right: 10px; /* 设置输入框与按钮之间的间距 */
+        }
+
+        #searchButton, #clearButton {
+            padding: 5px 10px; /* 设置按钮内边距 */
+            border: none; /* 去除按钮边框 */
+            background-color: #007bff; /* 设置按钮背景颜色 */
+            color: #fff; /* 设置按钮文字颜色 */
+            cursor: pointer; /* 设置鼠标悬停样式为手型 */
+        }
+
+        #searchButton:hover, #clearButton:hover {
+            background-color: #0056b3; /* 设置按钮悬停时的背景颜色 */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About Us</a>
+        <a href="contact.html" class="nav-item">Contact Us</a>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter destination or keyword">
+            <button id="searchButton">Search</button>
+            <button id="clearButton">Clear</button>
+        </div>
+    </nav>
+
+    <div id="home-page" class="content">
+        <div class="intro">
+            <h1>Welcome to PurpleTravel</h1>
+            <p>Explore the world with us and discover amazing destinations!</p>
+        </div>
+    </div>
+
+    <!-- container for searchResult -->
+    <div id="searchResults"></div>      
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
