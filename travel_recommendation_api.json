@@ -3,10 +3,12 @@
       {
         "id": 1,
         "name": "Australia",
+        "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
+        "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw%2Fdb97ccd7-4336-4762-bb09-268c698e0afc%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1715333635&t=81a65b2a17b55630467da9a48fba1455",
+            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Sydney.jpg?raw=true",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
@@ -19,15 +21,18 @@
       {
         "id": 2,
         "name": "Japan",
+        "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
+        "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
+        
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "https://img1.baidu.com/it/u=3229439144,1025301446&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
+            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Tokyo.jpg?raw=true",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "https://img1.baidu.com/it/u=3196976106,3705752686&fm=253&fmt=auto&app=138&f=JPEG?w=749&h=500",
+            "imageUrl": "https://github.com/Selitha98/travel-recommendation-website/blob/main/assets/Kyoto.jpg?raw=true",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -35,6 +40,8 @@
       {
         "id": 3,
         "name": "Brazil",
+        "imageUrl": "https://img2.baidu.com/it/u=1204075912,2827072787&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500",
+        "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
@@ -73,7 +80,7 @@
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "https://hbimg.b0.upaiyun.com/1e8f2118b354d68220c71693429fd7091138337d14862b-s53XRt_fw658",
+        "imageUrl": "https://img2.baidu.com/it/u=433471885,735320739&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=426",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
