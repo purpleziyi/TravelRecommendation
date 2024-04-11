@@ -56,3 +56,9 @@ filteredResults.forEach(item => {
 
 btnSearch.addEventListener("click", showResults);
 iconSearch.addEventListener("click", showResults);
+
+document.getElementById('btnClear').addEventListener('click', function() {
+    const input = document.getElementById('search_input').value = '';
+    const resultDiv = document.getElementById('search-results-container');
+    resultDiv.innerHTML = '';
+});
